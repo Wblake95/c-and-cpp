@@ -19,5 +19,11 @@ int main()
 		cout << i << endl;
 	}
 
+
+	int myNums[5] = {0,1,2,3,4};
+	for ( int i : myNums ) {
+		cout << i << endl;
+	}
+
 	return 0;
 }
